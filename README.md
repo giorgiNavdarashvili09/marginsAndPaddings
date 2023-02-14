@@ -77,3 +77,5 @@ EdgeInsets არის Flutter ის სინტაქსი რომლი�
 ```
 რის შემდეგაც ჩვენი აპლიკაცია მიიღებს შესაბამის ვიზუალს.<br /><br />
 <img src="/screenshots/padding-left.jpg" width=300><br /><br />
+EdgeInsets.only()_ ის შეგვიძლია მივუთითოთ 4 სხვადასხვა გვერდი შესაბამისად(left, top, right, bottom - მარცხნივ, ზემოთ, მარჯვნივ, ქვემოთ).
+მაგალითად EdgeInsets.only(left: 16,top: 32,) Container ვიჯეტს მიანიჭებს "16" პადინგს მარცხნივ, და "32" პადინგზს ზემოთ.
