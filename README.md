@@ -35,5 +35,5 @@ class MyApp extends StatelessWidget {
 ```
 
 კოდის გაშვების შემდეგ ვიღებთ შესაბამის ვიზუალს
-![Starting code](/screenshots/starting.jpg "")
+![Starting code](/screenshots/starting.jpg ""| width=100)
 
