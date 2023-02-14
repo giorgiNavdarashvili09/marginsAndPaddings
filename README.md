@@ -9,8 +9,10 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
 }
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -24,7 +26,10 @@ class MyApp extends StatelessWidget {
         ),
         body: Container(
           color: Colors.teal,
-          child: Text("Hello World", style: TextStyle(color: Colors.white),),
+          child: Text(
+            "Hello World",
+            style: TextStyle(color: Colors.white),
+          ),
         ),
       ),
     );
@@ -37,3 +42,19 @@ class MyApp extends StatelessWidget {
 კოდის გაშვების შემდეგ ვიღებთ შესაბამის ვიზუალს<br />
 <img src="/screenshots/starting.jpg" width=200>
 
+## padding
+იმისათვის, რომ Text ვიჯეტის კიდეებსა და Container ვიჯეტის კიდეებს შორის გავზარდოთ(ამჟამად 0_ია) ადგილი გამოვიყენებთ padding პარამეტრს <br />
+
+Container ვიჯეტის კოდი padding პარამეტრის დამატების შემდეგ ასე გამოიყურება
+
+```
+        body: Container(
+          padding: EdgeInsets.all(16),
+          color: Colors.teal,
+          child: Text(
+            "Hello World",
+            style: TextStyle(color: Colors.white),
+          ),
+        ),
+
+```
