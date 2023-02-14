@@ -23,12 +23,14 @@ class MyApp extends StatelessWidget {
           title: Text("margins"),
         ),
         body: Container(
-          child: Text("Hello World"),
+          color: Colors.teal,
+          child: Text("Hello World", style: TextStyle(color: Colors.white),),
         ),
       ),
     );
   }
 }
+
 
 ```
 
