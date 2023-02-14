@@ -1,7 +1,7 @@
 # მარჯინები და პადინგები
 იმისათვის, რომ ვიჯეტები სხვა ვიჯეტებისაგან ან/და ეკრანის კიდეებისაგან დავაშოროთ შეგვიძლია გამოვიყენოთ Container ვიჯეტის margin და padding პარამეტრები
 
-„„„
+```
 import 'package:flutter/material.dart';
 
 void main() {
@@ -29,4 +29,4 @@ class MyApp extends StatelessWidget {
 }
 
 
-„„„
+```
