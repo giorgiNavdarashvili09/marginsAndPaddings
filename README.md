@@ -34,6 +34,6 @@ class MyApp extends StatelessWidget {
 
 ```
 
-კოდის გაშვების შემდეგ ვიღებთ შესაბამის ვიზუალს
+კოდის გაშვების შემდეგ ვიღებთ შესაბამის ვიზუალს<br />
 <img src="/screenshots/starting.jpg" width=200>
 
