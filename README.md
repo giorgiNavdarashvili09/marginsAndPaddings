@@ -61,4 +61,19 @@ Container ვიჯეტის კოდი padding პარამეტრი
 
 EdgeInsets არის Flutter ის სინტაქსი რომლითაც შეგვიძლია მივუთითოთ padding ის ზომა სხვადასხვა გვერდებისათვის. ამ შემთხვევაში EdgeInsets.all(16) ოთხივე გვერდს აძლევს "16" პადინგს. <br />
 ამ ცვლილების შემდეგ ჩვენი Container ვიჯეტი ასე გამოიყურება <br /><br />
-<img src="/screenshots/padding-all.jpg" width=300>
+<img src="/screenshots/padding-all.jpg" width=300><br /><br />
+
+ასევე შეგვიძლია მივუთითოთ მხოლოდ ერთი გვერდი რომელსაც ექნება პადინგი EdgeInsets.only() _ის გამოყენებით. მაგალითად:
+
+```
+        body: Container(
+          padding: EdgeInsets.only(left: 16),
+          color: Colors.teal,
+          child: Text(
+            "Hello World",
+            style: TextStyle(color: Colors.white),
+          ),
+        ),
+```
+რის შემდეგაც ჩვენი აპლიკაცია მიიღებს შესაბამის ვიზუალს.<br /><br />
+<img src="/screenshots/padding-left.jpg" width=300><br /><br />
