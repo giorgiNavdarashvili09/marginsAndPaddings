@@ -175,7 +175,8 @@ class MyApp extends StatelessWidget {
                 height: 100,
               ),
             ],
-          )),
+          ),
+        ),
     );
   }
 }
@@ -183,3 +184,24 @@ class MyApp extends StatelessWidget {
 ```
 ხოლო აპლიკაციის ვიზუალი ასე:
 <img src="/screenshots/sizedbox-starter.jpg" width=300><br /><br />
+იმისათვის, რომ ორ Container ვიჯეტს შორის გამოვყოთ ადგილი აქამდე ვიყენებდით Row ვიჯეტის პარამეტრ - mainAxisAlignment: MainAxisAlignment.spaceBetween
+თუმცა ეს პარამეტრი ვიჯეტებს შესაბამისად ეკრანის მარცხნივ და მარჯვნივ ათავსებს.
+
+```
+        body: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Container(
+              color: Colors.red,
+              width: 100,
+              height: 100,
+            ),
+            Container(
+              color: Colors.amber,
+              width: 100,
+              height: 100,
+            ),
+          ],
+        ),
+```
+<img src="/screenshots/row-space-between.jpg" width=300><br /><br />
