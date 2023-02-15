@@ -182,7 +182,7 @@ class MyApp extends StatelessWidget {
 }
 
 ```
-ხოლო აპლიკაციის ვიზუალი ასე:
+ხოლო აპლიკაციის ვიზუალი ასე:<br /><br />
 <img src="/screenshots/sizedbox-starter.jpg" width=300><br /><br />
 იმისათვის, რომ ორ Container ვიჯეტს შორის გამოვყოთ ადგილი აქამდე ვიყენებდით Row ვიჯეტის პარამეტრ - mainAxisAlignment: MainAxisAlignment.spaceBetween
 თუმცა ეს პარამეტრი ვიჯეტებს შესაბამისად ეკრანის მარცხნივ და მარჯვნივ ათავსებს.
@@ -205,3 +205,26 @@ class MyApp extends StatelessWidget {
         ),
 ```
 <img src="/screenshots/row-space-between.jpg" width=300><br /><br />
+ასეთი შედეგი შეიძლება ყოველთვის სასურველი არ იყოს. 
+
+```
+        body: Row(
+          children: [
+            Container(
+              color: Colors.red,
+              width: 100,
+              height: 100,
+            ),
+            SizedBox(
+              width: 64,
+            ),
+            Container(
+              color: Colors.amber,
+              width: 100,
+              height: 100,
+            ),
+          ],
+        ),
+```
+ზემოთ მოცემულ კოდში პირველ რიგში ამოვიღეთ mainAxisAlignment პარამეტრი და ჩავამატეთ SizedBox ვიჯეტი. SizedBox(width: 64) ის დახმარებით ორ Container ვიჯეტს შორის გაჩნდა 64 პიქსელი დაშორება <br /><br />
+<img src="/screenshots/sizedbox.jpg" width=300><br /><br />
