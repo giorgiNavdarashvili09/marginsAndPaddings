@@ -94,3 +94,24 @@ Container ვიჯეტის სრული კოდი ასე გამ
 
 ხოლო აპლიკაციის ვიზუალი ასე:<br /><br />
 <img src="/screenshots/padding-left-top.jpg" width=300><br /><br />
+
+## margin
+padding_ის მსგავსად margin_იც გამოიყენება ვიჯეტისებსა და ეკრანის კიდეებს შორის დამატებითი ადგილის გამოსაყოფად. თუმცა მარჯინის შემთხვევაში ეს ადგილი ემატება ვიჯეტს გარეთ.
+ჩვენი Container ვიჯეტის კოდი margin პარამეტრის დამატების შემდეგ ასე გამოიყურება:
+
+```
+        body: Container(
+          margin: EdgeInsets.all(16),
+          padding: EdgeInsets.all(16),
+          color: Colors.teal,
+          child: Text(
+            "Hello World",
+            style: TextStyle(color: Colors.white),
+          ),
+        ),
+```
+
+ყურადღება მივაქციოთ, რომ როგორც padding პარამეტრი ასევე margin პარამეტრი "ელოდება" EdgeInsets.
+
+მოცემული კოდის გაშვების შემდეგ ჩვენი Container ვიჯეტი ასე გამოიყურება:<br /><br />
+<img src="/screenshots/margin-left-top.jpg" width=300><br /><br />
