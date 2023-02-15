@@ -226,5 +226,5 @@ class MyApp extends StatelessWidget {
           ],
         ),
 ```
-ზემოთ მოცემულ კოდში პირველ რიგში ამოვიღეთ mainAxisAlignment პარამეტრი და ჩავამატეთ SizedBox ვიჯეტი. SizedBox(width: 64) ის დახმარებით ორ Container ვიჯეტს შორის გაჩნდა 64 პიქსელი დაშორება <br /><br />
+ზემოთ მოცემულ კოდში პირველ რიგში ამოვიღეთ mainAxisAlignment პარამეტრი და ჩავამატეთ SizedBox ვიჯეტი. SizedBox(width: 64) ის დახმარებით ორ Container ვიჯეტს შორის გაჩნდა 64 პიქსელი დაშორება რაც ჩვენს აპლიკაციაში ასე გამოიყურება.<br /><br />
 <img src="/screenshots/sizedbox.jpg" width=300><br /><br />
